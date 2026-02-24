@@ -1,0 +1,32 @@
+/* ===========================
+   ThreeJs
+=========================== */
+
+.three-section {
+  position: relative;
+  padding: 2rem 2rem;
+  text-align: center;
+  background: radial-gradient(circle at center, #12121a, #0a0a0f);
+  overflow: hidden;
+}
+
+.three-section__content {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.three-section__title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+.three-section__subtitle {
+  color: #b5b5c3;
+  font-size: 1.1rem;
+}
+
+.three-section__canvas {
+  height: 500px;
+  max-width: 900px;
+  margin: 0 auto;
+}

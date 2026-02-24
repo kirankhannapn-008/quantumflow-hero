@@ -1,0 +1,74 @@
+/* ===========================
+   Value Section
+=========================== */
+
+.value-section {
+  padding: 2rem 2rem;
+  background: #0c0c12;
+}
+
+.value-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.value-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1.5rem;
+}
+
+.value-description {
+  color: #b5b5c3;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.value-list {
+  list-style: none;
+  padding: 0;
+  color: #d6d6e0;
+  display: grid;
+  gap: 1rem;
+}
+
+.value-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.value-card {
+  height: 100%;
+  padding: 2rem;
+  border-radius: 20px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.03),
+    rgba(255, 255, 255, 0.01)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+  transition:
+    border 0.3s ease,
+    box-shadow 0.3s ease;
+  transform: none;
+}
+
+.value-card h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #00f5ff, #7f5cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.value-card:hover {
+  border: 1px solid rgba(127, 92, 255, 0.4);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
