@@ -35,9 +35,10 @@ export default function ThreeSection() {
       ref={sectionRef}
       className="three-section"
       aria-labelledby="three-heading"
+      id="three-heading" 
     >
       <div className="three-section__content">
-        <h2 id="three-heading" className="three-section__title">
+        <h2 className="three-section__title">
           Experience Automation in 3D
         </h2>
         <p className="three-section__subtitle">

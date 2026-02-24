@@ -24,7 +24,7 @@ export default function Navbar() {
 
                 <nav className="navbar__nav" aria-label="Main Navigation">
                     <Link href="#features">Features</Link>
-                    <Link href="#experience">Experience</Link>
+                    <Link href="#three-heading">Experience</Link>
                     <Link href="#value">Value</Link>
                     <Link href="#contact">Contact</Link>
                 </nav>
